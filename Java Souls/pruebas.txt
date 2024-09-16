@@ -1,0 +1,25 @@
+ 	Monster velociprey = new Monster(3, 5, 5, 20, 2, "Velociprey");
+        Monster Oso = new Monster(5, 7, 10, 1, 3, "Oso");
+        Monster Grifo = new Monster(10, 10, 20, 40, 4, "Grifo");
+        Monster Bruja = new Monster(25, 5, 35, 30, 4, "Bruja");
+        Monster Fantasma = new Monster(15, 10, 25, 20, 3, "Fantasma");
+        Monster Dragon = new Monster(40, 60, 100, 350, 7, "Dragon");
+
+        Potion pocionCuraMax = new Potion("Curación Mayor", "Poción que cura 80 puntos de vida.", 60, 80);
+        Potion pocionCuraMin = new Potion("Curación Menor", "Poción que cura 40 puntos de vida.", 20, 40);
+        Potion pocionHierba = new Potion("Hierba", "Hierbas mágicas. Curan 10 puntos de vida.", 10, 20);
+
+        Weapon espada = new Weapon("Espada", "Espada normal", 20, 40);
+        Weapon arco = new Weapon("Arco", "Arco normal", 20, 30);
+        Weapon lanza = new Weapon("Lanza", "Lanza normal", 20, 35);
+        Weapon hacha = new Weapon("Hacha", "Hacha normal", 20, 45);
+        Weapon cuchillo = new Weapon("Cuchillo", "Cuchillo normal", 20, 20);
+
+        Shield escudoPequeño = new Shield("Escudo Pequeño", null, 20, 20);
+        Shield escudoMediano = new Shield("Escudo Mediano", null, 20, 40);
+        Shield escudoGrande = new Shield("Escudo Grande", null, 20, 60);
+
+        Spells AcidSplash = new Spells("AcidSplash", "Daño de ácido a los enemigos", 40, true);
+        Spells LesserRestoration = new Spells("LesserRestoration", "Permite al jugador curar a una criatura adyacente", 60, false);
+        Spells SearingSmite = new Spells("SearingSmite", "Este hechizo permite al jugador que su arma cuerpo a cuerpo brille con una intensidad candente, quemando a sus objetivos al golpear", 100, true);
+        Spells CureWounds = new Spells("CureWounds", "Este hechizo permite a los jugadores curar a sus aliados con magia divina a través del tacto", 45, false);
